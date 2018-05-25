@@ -141,7 +141,7 @@ def generatePayloadData(cores:Int = 8, totalRecs:Long = 10 * 1000, parts:Int = 8
 
 // How to run SQL query
 // CREATE TABLE output LIKE input;
-// INSERT INTO output SELECT * FROM input ORDER BY "_1" ASC
+// INSERT INTO output SELECT * FROM input ORDER BY _1 ASC
 
 // How to delete data from DBFS
 // %fs rm -r /tmp/fooAvro (run this on any shell)
