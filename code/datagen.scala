@@ -48,13 +48,13 @@ private def generateTSRecord(key: Array[Byte], recBuf:Array[Byte], rand: Random)
   recBuf(99 - fixed) = 0xFF.toByte
 }
 
-def generateTerasortData(cores:Int = 8, totalRecord:Int = 10 * 1000, parts:Int = 8, location:String = "/tmp/input"):Unit = {
+def generateTerasortData(cores:Int = 8, totalRecs:Long = 10 * 1000, parts:Int = 8, location:String = "/tmp/input"):Unit = {
   val LIMIT:Long = (1L << 31) / 100
   val keySize = 10
   val valSize = 90
   val spark:SparkSession = SparkSession.builder().getOrCreate()
-  val perTask:Int = totalRecord / cores
-  require((totalRecord % cores == 0) && (perTask < LIMIT), " ent:  " + totalRecord + " cores " + cores + " ent % cores " + (totalRecord % cores) + " perTask " + perTask + " LIMIT " + LIMIT)
+  val perTask:Long = totalRecs / cores
+  require((totalRecs % cores == 0) && (perTask < LIMIT), " ent:  " + totalRecs + " cores " + cores + " ent % cores " + (totalRecs % cores) + " perTask " + perTask + " LIMIT " + LIMIT)
 
   import spark.implicits._
   val inputJobRDD = spark.sparkContext.parallelize(0 until cores, cores)
@@ -75,6 +75,8 @@ def generateTerasortData(cores:Int = 8, totalRecord:Int = 10 * 1000, parts:Int =
 
   import com.databricks.spark.avro._
   recordInputDS.write.mode(SaveMode.Overwrite).avro(location)
+  val totalSize = totalRecs * (100)
+  println("Wrote terasort file: " + location + " total count: " + totalRecs + " totalSize: " + totalSize)
 }
 
 
@@ -91,12 +93,17 @@ private def generatePayloadRecord(payload: Array[Byte], rand: Random): Unit = {
 }
 
 
-def generatePayloadData(cores:Int = 8, totalRecord:Int = 10 * 1000, parts:Int = 8, payloadSize:Int = 100, location:String = "/tmp/input"):Unit = {
+def generatePayloadDataSZ(cores:Int = 8, totalRecordSize:Long = 10 * 1000, parts:Int = 8, payloadSize:Int = 100, location:String = "/tmp/input") = {
+  val recCount:Long = totalRecordSize / (payloadSize + 4)
+  generatePayloadData(cores, recCount, parts, payloadSize, location)
+}
+
+def generatePayloadData(cores:Int = 8, totalRecs:Long = 10 * 1000, parts:Int = 8, payloadSize:Int = 100, location:String = "/tmp/input"):Unit = {
   val LIMIT:Long = 1L << 31 // 2GB max for DBFS
   val spark:SparkSession = SparkSession.builder().getOrCreate()
-  val perTask:Int = totalRecord / cores
+  val perTask:Long = totalRecs / cores
   val singleFileSize = perTask * (payloadSize + 4)
-  require((totalRecord % cores == 0) && (singleFileSize < LIMIT), " ent:  " + totalRecord + " cores " + cores + " ent % cores " + (totalRecord % cores) + " singleFileSize " + singleFileSize + " LIMIT " + LIMIT)
+  require((totalRecs % cores == 0) && (singleFileSize < LIMIT), " ent:  " + totalRecs + " cores " + cores + " ent % cores " + (totalRecs % cores) + " singleFileSize " + singleFileSize + " LIMIT " + LIMIT)
 
   import spark.implicits._
   val inputJobRDD = spark.sparkContext.parallelize(0 until cores, cores)
@@ -116,6 +123,8 @@ def generatePayloadData(cores:Int = 8, totalRecord:Int = 10 * 1000, parts:Int = 
 
   import com.databricks.spark.avro._
   recordInputDS.write.mode(SaveMode.Overwrite).avro(location)
+  val totalSize = totalRecs * (payloadSize + 4)
+  println("Wrote file: " + location + " total count: " + totalRecs + " payload: " + payloadSize + " totalSize: " + totalSize)
 }
 
 
@@ -132,7 +141,7 @@ def generatePayloadData(cores:Int = 8, totalRecord:Int = 10 * 1000, parts:Int = 
 
 // How to run SQL query
 // CREATE TABLE output LIKE input;
-// INSERT INTO output SELECT * FROM input ORDER BY "_1" ASC
+// INSERT INTO output SELECT * FROM input ORDER BY _1 ASC
 
 // How to delete data from DBFS
 // %fs rm -r /tmp/fooAvro (run this on any shell)
