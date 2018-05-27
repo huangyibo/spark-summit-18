@@ -1,0 +1,566 @@
+k-elastictranscoder--com.amazonaws__aws-java-sdk-elastictranscoder__1.11.253.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.amazonaws--aws-java-sdk-emr--com.amazonaws__aws-java-sdk-emr__1.11.253.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.amazonaws--aws-java-sdk-glacier--com.amazonaws__aws-java-sdk-glacier__1.11.253.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.amazonaws--aws-java-sdk-iam--com.amazonaws__aws-java-sdk-iam__1.11.253.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.amazonaws--aws-java-sdk-importexport--com.amazonaws__aws-java-sdk-importexport__1.11.253.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.amazonaws--aws-java-sdk-kinesis--com.amazonaws__aws-java-sdk-kinesis__1.11.253.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.amazonaws--aws-java-sdk-kms--com.amazonaws__aws-java-sdk-kms__1.11.253.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.amazonaws--aws-java-sdk-lambda--com.amazonaws__aws-java-sdk-lambda__1.11.253.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.amazonaws--aws-java-sdk-logs--com.amazonaws__aws-java-sdk-logs__1.11.253.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.amazonaws--aws-java-sdk-machinelearning--com.amazonaws__aws-java-sdk-machinelearning__1.11.253.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.amazonaws--aws-java-sdk-opsworks--com.amazonaws__aws-java-sdk-opsworks__1.11.253.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.amazonaws--aws-java-sdk-rds--com.amazonaws__aws-java-sdk-rds__1.11.253.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.amazonaws--aws-java-sdk-redshift--com.amazonaws__aws-java-sdk-redshift__1.11.253.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.amazonaws--aws-java-sdk-route53--com.amazonaws__aws-java-sdk-route53__1.11.253.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.amazonaws--aws-java-sdk-s3--com.amazonaws__aws-java-sdk-s3__1.11.253.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.amazonaws--aws-java-sdk-ses--com.amazonaws__aws-java-sdk-ses__1.11.253.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.amazonaws--aws-java-sdk-simpledb--com.amazonaws__aws-java-sdk-simpledb__1.11.253.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.amazonaws--aws-java-sdk-simpleworkflow--com.amazonaws__aws-java-sdk-simpleworkflow__1.11.253.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.amazonaws--aws-java-sdk-sns--com.amazonaws__aws-java-sdk-sns__1.11.253.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.amazonaws--aws-java-sdk-sqs--com.amazonaws__aws-java-sdk-sqs__1.11.253.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.amazonaws--aws-java-sdk-ssm--com.amazonaws__aws-java-sdk-ssm__1.11.253.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.amazonaws--aws-java-sdk-storagegateway--com.amazonaws__aws-java-sdk-storagegateway__1.11.253.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.amazonaws--aws-java-sdk-sts--com.amazonaws__aws-java-sdk-sts__1.11.253.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.amazonaws--aws-java-sdk-support--com.amazonaws__aws-java-sdk-support__1.11.253.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.amazonaws--aws-java-sdk-swf-libraries--com.amazonaws__aws-java-sdk-swf-libraries__1.11.22.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.amazonaws--aws-java-sdk-workspaces--com.amazonaws__aws-java-sdk-workspaces__1.11.253.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.amazonaws--jmespath-java--com.amazonaws__jmespath-java__1.11.253.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.carrotsearch--hppc--com.carrotsearch__hppc__0.7.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.chuusai--shapeless_2.11--com.chuusai__shapeless_2.11__2.3.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.clearspring.analytics--stream--com.clearspring.analytics__stream__2.7.0.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.databricks--dbml-local_2.11--com.databricks__dbml-local_2.11__0.3.0-db1-spark2.3.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.databricks--dbml-local_2.11-tests--com.databricks__dbml-local_2.11-tests__0.3.0-db1-spark2.3.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.databricks--jets3t--com.databricks__jets3t__0.7.1-0.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.databricks--Rserve--com.databricks__Rserve__1.8-3.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.databricks.scalapb--compilerplugin_2.11--com.databricks.scalapb__compilerplugin_2.11__0.4.15-9.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.databricks.scalapb--scalapb-runtime_2.11--com.databricks.scalapb__scalapb-runtime_2.11__0.4.15-9.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.esotericsoftware--kryo-shaded--com.esotericsoftware__kryo-shaded__3.0.3.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.esotericsoftware--minlog--com.esotericsoftware__minlog__1.3.0.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.fasterxml--classmate--com.fasterxml__classmate__1.0.0.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.fasterxml.jackson.core--jackson-annotations--com.fasterxml.jackson.core__jackson-annotations__2.6.7.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.fasterxml.jackson.core--jackson-core--com.fasterxml.jackson.core__jackson-core__2.6.7.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.fasterxml.jackson.core--jackson-databind--com.fasterxml.jackson.core__jackson-databind__2.6.7.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.fasterxml.jackson.dataformat--jackson-dataformat-cbor--com.fasterxml.jackson.dataformat__jackson-dataformat-cbor__2.6.7.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.fasterxml.jackson.datatype--jackson-datatype-joda--com.fasterxml.jackson.datatype__jackson-datatype-joda__2.6.7.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.fasterxml.jackson.module--jackson-module-paranamer--com.fasterxml.jackson.module__jackson-module-paranamer__2.6.7.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.fasterxml.jackson.module--jackson-module-scala_2.11--com.fasterxml.jackson.module__jackson-module-scala_2.11__2.6.7.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.github.fommil--jniloader--com.github.fommil__jniloader__1.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.github.fommil.netlib--core--com.github.fommil.netlib__core__1.1.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.github.fommil.netlib--native_ref-java--com.github.fommil.netlib__native_ref-java__1.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.github.fommil.netlib--native_ref-java-natives--com.github.fommil.netlib__native_ref-java-natives__1.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.github.fommil.netlib--native_system-java--com.github.fommil.netlib__native_system-java__1.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.github.fommil.netlib--native_system-java-natives--com.github.fommil.netlib__native_system-java-natives__1.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.github.fommil.netlib--netlib-native_ref-linux-x86_64-natives--com.github.fommil.netlib__netlib-native_ref-linux-x86_64-natives__1.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.github.fommil.netlib--netlib-native_system-linux-x86_64-natives--com.github.fommil.netlib__netlib-native_system-linux-x86_64-natives__1.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.github.luben--zstd-jni--com.github.luben__zstd-jni__1.3.2-2.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.github.rwl--jtransforms--com.github.rwl__jtransforms__2.4.0.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.google.code.findbugs--jsr305--com.google.code.findbugs__jsr305__2.0.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.google.code.gson--gson--com.google.code.gson__gson__2.2.4.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.googlecode.javaewah--JavaEWAH--com.googlecode.javaewah__JavaEWAH__0.3.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.google.guava--guava--com.google.guava__guava__15.0.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.google.protobuf--protobuf-java--com.google.protobuf__protobuf-java__2.6.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.h2database--h2--com.h2database__h2__1.3.174.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.jamesmurty.utils--java-xmlbuilder--com.jamesmurty.utils__java-xmlbuilder__1.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.jcraft--jsch--com.jcraft__jsch__0.1.50.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.jolbox--bonecp--com.jolbox__bonecp__0.8.0.RELEASE.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.mchange--c3p0--com.mchange__c3p0__0.9.5.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.mchange--mchange-commons-java--com.mchange__mchange-commons-java__0.2.10.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.microsoft.azure--azure-data-lake-store-sdk--com.microsoft.azure__azure-data-lake-store-sdk__2.2.8.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.microsoft.sqlserver--mssql-jdbc--com.microsoft.sqlserver__mssql-jdbc__6.2.2.jre8.jar:/databricks/jars/spark--maven-trees--spark_2.3--commons-beanutils--commons-beanutils--commons-beanutils__commons-beanutils__1.7.0.jar:/databricks/jars/spark--maven-trees--spark_2.3--commons-beanutils--commons-beanutils-core--commons-beanutils__commons-beanutils-core__1.8.0.jar:/databricks/jars/spark--maven-trees--spark_2.3--commons-cli--commons-cli--commons-cli__commons-cli__1.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--commons-codec--commons-codec--commons-codec__commons-codec__1.10.jar:/databricks/jars/spark--maven-trees--spark_2.3--commons-collections--commons-collections--commons-collections__commons-collections__3.2.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--commons-configuration--commons-configuration--commons-configuration__commons-configuration__1.6.jar:/databricks/jars/spark--maven-trees--spark_2.3--commons-dbcp--commons-dbcp--commons-dbcp__commons-dbcp__1.4.jar:/databricks/jars/spark--maven-trees--spark_2.3--commons-digester--commons-digester--commons-digester__commons-digester__1.8.jar:/databricks/jars/spark--maven-trees--spark_2.3--commons-httpclient--commons-httpclient--commons-httpclient__commons-httpclient__3.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--commons-io--commons-io--commons-io__commons-io__2.4.jar:/databricks/jars/spark--maven-trees--spark_2.3--commons-lang--commons-lang--commons-lang__commons-lang__2.6.jar:/databricks/jars/spark--maven-trees--spark_2.3--commons-logging--commons-logging--commons-logging__commons-logging__1.1.3.jar:/databricks/jars/spark--maven-trees--spark_2.3--commons-net--commons-net--commons-net__commons-net__2.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--commons-pool--commons-pool--commons-pool__commons-pool__1.5.4.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.ning--compress-lzf--com.ning__compress-lzf__1.0.3.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.sun.mail--javax.mail--com.sun.mail__javax.mail__1.5.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.thoughtworks.paranamer--paranamer--com.thoughtworks.paranamer__paranamer__2.8.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.trueaccord.lenses--lenses_2.11--com.trueaccord.lenses__lenses_2.11__0.3.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.twitter--chill_2.11--com.twitter__chill_2.11__0.8.4.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.twitter--chill-java--com.twitter__chill-java__0.8.4.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.twitter--parquet-hadoop-bundle--com.twitter__parquet-hadoop-bundle__1.6.0.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.twitter--util-app_2.11--com.twitter__util-app_2.11__6.23.0.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.twitter--util-core_2.11--com.twitter__util-core_2.11__6.23.0.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.twitter--util-jvm_2.11--com.twitter__util-jvm_2.11__6.23.0.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.typesafe--config--com.typesafe__config__1.2.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.typesafe.scala-logging--scala-logging-api_2.11--com.typesafe.scala-logging__scala-logging-api_2.11__2.1.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.typesafe.scala-logging--scala-logging-slf4j_2.11--com.typesafe.scala-logging__scala-logging-slf4j_2.11__2.1.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.univocity--univocity-parsers--com.univocity__univocity-parsers__2.5.9.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.vlkan--flatbuffers--com.vlkan__flatbuffers__1.2.0-3f79e055.jar:/databricks/jars/spark--maven-trees--spark_2.3--com.zaxxer--HikariCP--com.zaxxer__HikariCP__2.4.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--info.ganglia.gmetric4j--gmetric4j--info.ganglia.gmetric4j__gmetric4j__1.0.7.jar:/databricks/jars/spark--maven-trees--spark_2.3--io.airlift--aircompressor--io.airlift__aircompressor__0.8.jar:/databricks/jars/spark--maven-trees--spark_2.3--io.dropwizard.metrics--metrics-core--io.dropwizard.metrics__metrics-core__3.1.5.jar:/databricks/jars/spark--maven-trees--spark_2.3--io.dropwizard.metrics--metrics-ganglia--io.dropwizard.metrics__metrics-ganglia__3.1.5.jar:/databricks/jars/spark--maven-trees--spark_2.3--io.dropwizard.metrics--metrics-graphite--io.dropwizard.metrics__metrics-graphite__3.1.5.jar:/databricks/jars/spark--maven-trees--spark_2.3--io.dropwizard.metrics--metrics-healthchecks--io.dropwizard.metrics__metrics-healthchecks__3.1.5.jar:/databricks/jars/spark--maven-trees--spark_2.3--io.dropwizard.metrics--metrics-jetty9--io.dropwizard.metrics__metrics-jetty9__3.1.5.jar:/databricks/jars/spark--maven-trees--spark_2.3--io.dropwizard.metrics--metrics-json--io.dropwizard.metrics__metrics-json__3.1.5.jar:/databricks/jars/spark--maven-trees--spark_2.3--io.dropwizard.metrics--metrics-jvm--io.dropwizard.metrics__metrics-jvm__3.1.5.jar:/databricks/jars/spark--maven-trees--spark_2.3--io.dropwizard.metrics--metrics-log4j--io.dropwizard.metrics__metrics-log4j__3.1.5.jar:/databricks/jars/spark--maven-trees--spark_2.3--io.dropwizard.metrics--metrics-servlets--io.dropwizard.metrics__metrics-servlets__3.1.5.jar:/databricks/jars/spark--maven-trees--spark_2.3--io.netty--netty-all--io.netty__netty-all__4.1.17.Final.jar:/databricks/jars/spark--maven-trees--spark_2.3--io.netty--netty--io.netty__netty__3.9.9.Final.jar:/databricks/jars/spark--maven-trees--spark_2.3--io.prometheus.jmx--collector--io.prometheus.jmx__collector__0.7.jar:/databricks/jars/spark--maven-trees--spark_2.3--io.prometheus--simpleclient_common--io.prometheus__simpleclient_common__0.0.16.jar:/databricks/jars/spark--maven-trees--spark_2.3--io.prometheus--simpleclient_dropwizard--io.prometheus__simpleclient_dropwizard__0.0.16.jar:/databricks/jars/spark--maven-trees--spark_2.3--io.prometheus--simpleclient--io.prometheus__simpleclient__0.0.16.jar:/databricks/jars/spark--maven-trees--spark_2.3--io.prometheus--simpleclient_servlet--io.prometheus__simpleclient_servlet__0.0.16.jar:/databricks/jars/spark--maven-trees--spark_2.3--javax.activation--activation--javax.activation__activation__1.1.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--javax.annotation--javax.annotation-api--javax.annotation__javax.annotation-api__1.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--javax.el--javax.el-api--javax.el__javax.el-api__2.2.4.jar:/databricks/jars/spark--maven-trees--spark_2.3--javax.jdo--jdo-api--javax.jdo__jdo-api__3.0.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--javax.servlet--javax.servlet-api--javax.servlet__javax.servlet-api__3.1.0.jar:/databricks/jars/spark--maven-trees--spark_2.3--javax.servlet.jsp--jsp-api--javax.servlet.jsp__jsp-api__2.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--javax.transaction--jta--javax.transaction__jta__1.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--javax.validation--validation-api--javax.validation__validation-api__1.1.0.Final.jar:/databricks/jars/spark--maven-trees--spark_2.3--javax.ws.rs--javax.ws.rs-api--javax.ws.rs__javax.ws.rs-api__2.0.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--javax.xml.bind--jaxb-api--javax.xml.bind__jaxb-api__2.2.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--javax.xml.stream--stax-api--javax.xml.stream__stax-api__1.0-2.jar:/databricks/jars/spark--maven-trees--spark_2.3--javolution--javolution--javolution__javolution__5.5.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--jline--jline--jline__jline__2.11.jar:/databricks/jars/spark--maven-trees--spark_2.3--joda-time--joda-time--joda-time__joda-time__2.9.3.jar:/databricks/jars/spark--maven-trees--spark_2.3--log4j--apache-log4j-extras--log4j__apache-log4j-extras__1.2.17.jar:/databricks/jars/spark--maven-trees--spark_2.3--log4j--log4j--log4j__log4j__1.2.17.jar:/databricks/jars/spark--maven-trees--spark_2.3--net.hydromatic--eigenbase-properties--net.hydromatic__eigenbase-properties__1.1.5.jar:/databricks/jars/spark--maven-trees--spark_2.3--net.iharder--base64--net.iharder__base64__2.3.8.jar:/databricks/jars/spark--maven-trees--spark_2.3--net.java.dev.jets3t--jets3t--net.java.dev.jets3t__jets3t__0.9.4.jar:/databricks/jars/spark--maven-trees--spark_2.3--net.razorvine--pyrolite--net.razorvine__pyrolite__4.13.jar:/databricks/jars/spark--maven-trees--spark_2.3--net.sf.jpam--jpam--net.sf.jpam__jpam__1.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--net.sf.opencsv--opencsv--net.sf.opencsv__opencsv__2.3.jar:/databricks/jars/spark--maven-trees--spark_2.3--net.sf.supercsv--super-csv--net.sf.supercsv__super-csv__2.2.0.jar:/databricks/jars/spark--maven-trees--spark_2.3--net.sourceforge.f2j--arpack_combined_all--net.sourceforge.f2j__arpack_combined_all__0.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.acplt--oncrpc--org.acplt__oncrpc__1.0.7.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.antlr--antlr4-runtime--org.antlr__antlr4-runtime__4.7.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.antlr--antlr-runtime--org.antlr__antlr-runtime__3.4.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.antlr--ST4--org.antlr__ST4__4.0.4.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.antlr--stringtemplate--org.antlr__stringtemplate__3.2.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.ant--ant-jsch--org.apache.ant__ant-jsch__1.9.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.ant--ant-launcher--org.apache.ant__ant-launcher__1.9.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.ant--ant--org.apache.ant__ant__1.9.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.arrow--arrow-format--org.apache.arrow__arrow-format__0.8.0.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.arrow--arrow-memory--org.apache.arrow__arrow-memory__0.8.0.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.arrow--arrow-vector--org.apache.arrow__arrow-vector__0.8.0.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.avro--avro-ipc--org.apache.avro__avro-ipc__1.7.7.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.avro--avro-ipc-tests--org.apache.avro__avro-ipc-tests__1.7.7.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.avro--avro-mapred-hadoop2--org.apache.avro__avro-mapred-hadoop2__1.7.7.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.avro--avro--org.apache.avro__avro__1.7.7.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.calcite--calcite-avatica--org.apache.calcite__calcite-avatica__1.2.0-incubating.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.calcite--calcite-core--org.apache.calcite__calcite-core__1.2.0-incubating.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.calcite--calcite-linq4j--org.apache.calcite__calcite-linq4j__1.2.0-incubating.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.commons--commons-compress--org.apache.commons__commons-compress__1.4.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.commons--commons-crypto--org.apache.commons__commons-crypto__1.0.0.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.commons--commons-lang3--org.apache.commons__commons-lang3__3.5.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.commons--commons-math3--org.apache.commons__commons-math3__3.4.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.curator--curator-client--org.apache.curator__curator-client__2.7.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.curator--curator-framework--org.apache.curator__curator-framework__2.7.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.curator--curator-recipes--org.apache.curator__curator-recipes__2.7.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.derby--derby--org.apache.derby__derby__10.12.1.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.directory.api--api-asn1-api--org.apache.directory.api__api-asn1-api__1.0.0-M20.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.directory.api--api-util--org.apache.directory.api__api-util__1.0.0-M20.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.directory.server--apacheds-i18n--org.apache.directory.server__apacheds-i18n__2.0.0-M15.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.directory.server--apacheds-kerberos-codec--org.apache.directory.server__apacheds-kerberos-codec__2.0.0-M15.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.hadoop--hadoop-annotations--org.apache.hadoop__hadoop-annotations__2.7.3.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.hadoop--hadoop-auth--org.apache.hadoop__hadoop-auth__2.7.3.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.hadoop--hadoop-client--org.apache.hadoop__hadoop-client__2.7.3.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.hadoop--hadoop-common--org.apache.hadoop__hadoop-common__2.7.3.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.hadoop--hadoop-hdfs--org.apache.hadoop__hadoop-hdfs__2.7.3.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.hadoop--hadoop-mapreduce-client-app--org.apache.hadoop__hadoop-mapreduce-client-app__2.7.3.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.hadoop--hadoop-mapreduce-client-common--org.apache.hadoop__hadoop-mapreduce-client-common__2.7.3.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.hadoop--hadoop-mapreduce-client-core--org.apache.hadoop__hadoop-mapreduce-client-core__2.7.3.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.hadoop--hadoop-mapreduce-client-jobclient--org.apache.hadoop__hadoop-mapreduce-client-jobclient__2.7.3.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.hadoop--hadoop-mapreduce-client-shuffle--org.apache.hadoop__hadoop-mapreduce-client-shuffle__2.7.3.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.hadoop--hadoop-yarn-api--org.apache.hadoop__hadoop-yarn-api__2.7.3.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.hadoop--hadoop-yarn-client--org.apache.hadoop__hadoop-yarn-client__2.7.3.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.hadoop--hadoop-yarn-common--org.apache.hadoop__hadoop-yarn-common__2.7.3.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.hadoop--hadoop-yarn-server-common--org.apache.hadoop__hadoop-yarn-server-common__2.7.3.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.htrace--htrace-core--org.apache.htrace__htrace-core__3.1.0-incubating.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.httpcomponents--httpclient--org.apache.httpcomponents__httpclient__4.5.4.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.httpcomponents--httpcore--org.apache.httpcomponents__httpcore__4.4.8.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.ivy--ivy--org.apache.ivy__ivy__2.4.0.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.orc--orc-core-nohive--org.apache.orc__orc-core-nohive__1.4.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.orc--orc-mapreduce-nohive--org.apache.orc__orc-mapreduce-nohive__1.4.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.parquet--parquet-column--org.apache.parquet__parquet-column__1.8.2-databricks1.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.parquet--parquet-common--org.apache.parquet__parquet-common__1.8.2-databricks1.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.parquet--parquet-encoding--org.apache.parquet__parquet-encoding__1.8.2-databricks1.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.parquet--parquet-format--org.apache.parquet__parquet-format__2.3.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.parquet--parquet-hadoop--org.apache.parquet__parquet-hadoop__1.8.2-databricks1.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.parquet--parquet-jackson--org.apache.parquet__parquet-jackson__1.8.2-databricks1.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.thrift--libfb303--org.apache.thrift__libfb303__0.9.3.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.thrift--libthrift--org.apache.thrift__libthrift__0.9.3.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.xbean--xbean-asm5-shaded--org.apache.xbean__xbean-asm5-shaded__4.4.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.apache.zookeeper--zookeeper--org.apache.zookeeper__zookeeper__3.4.6.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.bouncycastle--bcprov-jdk15on--org.bouncycastle__bcprov-jdk15on__1.58.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.codehaus.jackson--jackson-core-asl--org.codehaus.jackson__jackson-core-asl__1.9.13.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.codehaus.jackson--jackson-jaxrs--org.codehaus.jackson__jackson-jaxrs__1.9.13.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.codehaus.jackson--jackson-mapper-asl--org.codehaus.jackson__jackson-mapper-asl__1.9.13.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.codehaus.jackson--jackson-xc--org.codehaus.jackson__jackson-xc__1.9.13.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.codehaus.janino--commons-compiler--org.codehaus.janino__commons-compiler__3.0.8.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.codehaus.janino--janino--org.codehaus.janino__janino__3.0.8.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.datanucleus--datanucleus-api-jdo--org.datanucleus__datanucleus-api-jdo__3.2.6.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.datanucleus--datanucleus-core--org.datanucleus__datanucleus-core__3.2.10.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.datanucleus--datanucleus-rdbms--org.datanucleus__datanucleus-rdbms__3.2.9.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.eclipse.jetty--jetty-client--org.eclipse.jetty__jetty-client__9.3.20.v20170531.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.eclipse.jetty--jetty-continuation--org.eclipse.jetty__jetty-continuation__9.3.20.v20170531.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.eclipse.jetty--jetty-http--org.eclipse.jetty__jetty-http__9.3.20.v20170531.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.eclipse.jetty--jetty-io--org.eclipse.jetty__jetty-io__9.3.20.v20170531.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.eclipse.jetty--jetty-jndi--org.eclipse.jetty__jetty-jndi__9.3.20.v20170531.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.eclipse.jetty--jetty-plus--org.eclipse.jetty__jetty-plus__9.3.20.v20170531.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.eclipse.jetty--jetty-proxy--org.eclipse.jetty__jetty-proxy__9.3.20.v20170531.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.eclipse.jetty--jetty-security--org.eclipse.jetty__jetty-security__9.3.20.v20170531.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.eclipse.jetty--jetty-server--org.eclipse.jetty__jetty-server__9.3.20.v20170531.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.eclipse.jetty--jetty-servlet--org.eclipse.jetty__jetty-servlet__9.3.20.v20170531.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.eclipse.jetty--jetty-servlets--org.eclipse.jetty__jetty-servlets__9.3.20.v20170531.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.eclipse.jetty--jetty-util--org.eclipse.jetty__jetty-util__9.3.20.v20170531.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.eclipse.jetty--jetty-webapp--org.eclipse.jetty__jetty-webapp__9.3.20.v20170531.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.eclipse.jetty--jetty-xml--org.eclipse.jetty__jetty-xml__9.3.20.v20170531.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.fusesource.leveldbjni--leveldbjni-all--org.fusesource.leveldbjni__leveldbjni-all__1.8.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.glassfish.hk2.external--aopalliance-repackaged--org.glassfish.hk2.external__aopalliance-repackaged__2.4.0-b34.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.glassfish.hk2.external--javax.inject--org.glassfish.hk2.external__javax.inject__2.4.0-b34.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.glassfish.hk2--hk2-api--org.glassfish.hk2__hk2-api__2.4.0-b34.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.glassfish.hk2--hk2-locator--org.glassfish.hk2__hk2-locator__2.4.0-b34.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.glassfish.hk2--hk2-utils--org.glassfish.hk2__hk2-utils__2.4.0-b34.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.glassfish.hk2--osgi-resource-locator--org.glassfish.hk2__osgi-resource-locator__1.0.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.glassfish.jersey.bundles.repackaged--jersey-guava--org.glassfish.jersey.bundles.repackaged__jersey-guava__2.22.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.glassfish.jersey.containers--jersey-container-servlet-core--org.glassfish.jersey.containers__jersey-container-servlet-core__2.22.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.glassfish.jersey.containers--jersey-container-servlet--org.glassfish.jersey.containers__jersey-container-servlet__2.22.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.glassfish.jersey.core--jersey-client--org.glassfish.jersey.core__jersey-client__2.22.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.glassfish.jersey.core--jersey-common--org.glassfish.jersey.core__jersey-common__2.22.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.glassfish.jersey.core--jersey-server--org.glassfish.jersey.core__jersey-server__2.22.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.glassfish.jersey.media--jersey-media-jaxb--org.glassfish.jersey.media__jersey-media-jaxb__2.22.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.hibernate--hibernate-validator--org.hibernate__hibernate-validator__5.1.1.Final.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.iq80.snappy--snappy--org.iq80.snappy__snappy__0.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.javassist--javassist--org.javassist__javassist__3.18.1-GA.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.jboss.logging--jboss-logging--org.jboss.logging__jboss-logging__3.1.3.GA.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.jdbi--jdbi--org.jdbi__jdbi__2.63.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.joda--joda-convert--org.joda__joda-convert__1.7.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.jodd--jodd-core--org.jodd__jodd-core__3.5.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.json4s--json4s-ast_2.11--org.json4s__json4s-ast_2.11__3.2.11.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.json4s--json4s-core_2.11--org.json4s__json4s-core_2.11__3.2.11.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.json4s--json4s-jackson_2.11--org.json4s__json4s-jackson_2.11__3.2.11.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.lz4--lz4-java--org.lz4__lz4-java__1.4.0.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.mariadb.jdbc--mariadb-java-client--org.mariadb.jdbc__mariadb-java-client__2.1.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.mockito--mockito-all--org.mockito__mockito-all__1.9.5.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.objenesis--objenesis--org.objenesis__objenesis__2.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.postgresql--postgresql--org.postgresql__postgresql__42.1.4.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.roaringbitmap--RoaringBitmap--org.roaringbitmap__RoaringBitmap__0.5.11.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.rocksdb--rocksdbjni--org.rocksdb__rocksdbjni__5.2.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.rosuda.REngine--REngine--org.rosuda.REngine__REngine__2.1.0.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.scalacheck--scalacheck_2.11--org.scalacheck__scalacheck_2.11__1.12.5.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.scala-lang.modules--scala-parser-combinators_2.11--org.scala-lang.modules__scala-parser-combinators_2.11__1.0.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.scala-lang.modules--scala-xml_2.11--org.scala-lang.modules__scala-xml_2.11__1.0.5.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.scala-lang--scala-compiler_2.11--org.scala-lang__scala-compiler__2.11.8.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.scala-lang--scala-library_2.11--org.scala-lang__scala-library__2.11.8.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.scala-lang--scalap_2.11--org.scala-lang__scalap__2.11.8.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.scala-lang--scala-reflect_2.11--org.scala-lang__scala-reflect__2.11.8.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.scalanlp--breeze_2.11--org.scalanlp__breeze_2.11__0.13.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.scalanlp--breeze-macros_2.11--org.scalanlp__breeze-macros_2.11__0.13.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.scala-sbt--test-interface--org.scala-sbt__test-interface__1.0.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.scalatest--scalatest_2.11--org.scalatest__scalatest_2.11__2.2.6.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.slf4j--jcl-over-slf4j--org.slf4j__jcl-over-slf4j__1.7.16.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.slf4j--jul-to-slf4j--org.slf4j__jul-to-slf4j__1.7.16.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.slf4j--slf4j-api--org.slf4j__slf4j-api__1.7.16.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.slf4j--slf4j-log4j12--org.slf4j__slf4j-log4j12__1.7.16.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.spark-project.hive--hive-beeline--org.spark-project.hive__hive-beeline__1.2.1.spark2.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.spark-project.hive--hive-cli--org.spark-project.hive__hive-cli__1.2.1.spark2.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.spark-project.hive--hive-exec--org.spark-project.hive__hive-exec__1.2.1.spark2.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.spark-project.hive--hive-jdbc--org.spark-project.hive__hive-jdbc__1.2.1.spark2.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.spark-project.hive--hive-metastore--org.spark-project.hive__hive-metastore__1.2.1.spark2.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.spark-project.spark--unused--org.spark-project.spark__unused__1.0.0.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.spire-math--spire_2.11--org.spire-math__spire_2.11__0.13.0.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.spire-math--spire-macros_2.11--org.spire-math__spire-macros_2.11__0.13.0.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.springframework--spring-core--org.springframework__spring-core__4.1.4.RELEASE.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.springframework--spring-test--org.springframework__spring-test__4.1.4.RELEASE.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.tukaani--xz--org.tukaani__xz__1.0.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.typelevel--machinist_2.11--org.typelevel__machinist_2.11__0.6.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.typelevel--macro-compat_2.11--org.typelevel__macro-compat_2.11__1.1.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.xerial.snappy--snappy-java--org.xerial.snappy__snappy-java__1.1.2.6.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.xerial--sqlite-jdbc--org.xerial__sqlite-jdbc__3.8.11.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--org.yaml--snakeyaml--org.yaml__snakeyaml__1.16.jar:/databricks/jars/spark--maven-trees--spark_2.3--oro--oro--oro__oro__2.0.8.jar:/databricks/jars/spark--maven-trees--spark_2.3--software.amazon.ion--ion-java--software.amazon.ion__ion-java__1.0.2.jar:/databricks/jars/spark--maven-trees--spark_2.3--stax--stax-api--stax__stax-api__1.0.1.jar:/databricks/jars/spark--maven-trees--spark_2.3--xmlenc--xmlenc--xmlenc__xmlenc__0.52.jar:/databricks/jars/spark--versions--2.3--avro_2.11_deploy.jar:/databricks/jars/spark--versions--2.3--catalyst_2.11_deploy.jar:/databricks/jars/spark--versions--2.3--core_2.11_deploy.jar:/databricks/jars/spark--versions--2.3--ganglia-lgpl_2.11_deploy.jar:/databricks/jars/spark--versions--2.3--graphx_2.11_deploy.jar:/databricks/jars/spark--versions--2.3--hive_2.11_deploy.jar:/databricks/jars/spark--versions--2.3--hive-thriftserver_2.11_deploy.jar:/databricks/jars/spark--versions--2.3--kafka_2.11_only_kafka08_shaded.jar:/databricks/jars/spark--versions--2.3--kafka-clients_only_kafka08_shaded.jar:/databricks/jars/spark--versions--2.3--kafka-clients_only_shaded.jar:/databricks/jars/spark--versions--2.3--libspark-sql-parser-compiled.jar:/databricks/jars/spark--versions--2.3--metrics-core_only_kafka08_shaded.jar:/databricks/jars/spark--versions--2.3--mllib_2.11_deploy_shaded.jar:/databricks/jars/spark--versions--2.3--mllib-local_2.11_deploy.jar:/databricks/jars/spark--versions--2.3--org.jpmml__pmml-model__1.2.15_shaded.jar:/databricks/jars/spark--versions--2.3--org.jpmml__pmml-schema__1.2.15_shaded.jar:/databricks/jars/spark--versions--2.3--py4j_2.11_deploy.jar:/databricks/jars/spark--versions--2.3--redshift_2.11_deploy.jar:/databricks/jars/spark--versions--2.3--repl_2.11_deploy.jar:/databricks/jars/spark--versions--2.3--shim_2.11_deploy.jar:/databricks/jars/spark--versions--2.3--spark_2.11_deploy.jar:/databricks/jars/spark--versions--2.3--spark-2.3-core-resources-jar-resources.jar:/databricks/jars/spark--versions--2.3--spark-2.3-hive-resources-jar-resources.jar:/databricks/jars/spark--versions--2.3--spark-2.3-mllib-resources-jar-resources.jar:/databricks/jars/spark--versions--2.3--spark-2.3-spark-sql-aws-resources-jar-resources.jar:/databricks/jars/spark--versions--2.3--spark-2.3-spark-sql-kafka-0-10-resources-jar-resources.jar:/databricks/jars/spark--versions--2.3--spark-2.3-spark-sql-kafka-0-8-resources-jar-resources.jar:/databricks/jars/spark--versions--2.3--spark-2.3-sql-resources-jar-resources.jar:/databricks/jars/spark--versions--2.3--spark-2.3-streaming-resources-jar-resources.jar:/databricks/jars/spark--versions--2.3--spark-sql-aws_2.11_deploy.jar:/databricks/jars/spark--versions--2.3--spark-sql-kafka-0-10_2.11_deploy_shaded.jar:/databricks/jars/spark--versions--2.3--spark-sql-kafka-0-8_2.11_deploy_shaded.jar:/databricks/jars/spark--versions--2.3--sql_2.11_deploy.jar:/databricks/jars/spark--versions--2.3--sqldw_2.11_deploy.jar:/databricks/jars/spark--versions--2.3--streaming_2.11_deploy.jar:/databricks/jars/spark--versions--2.3--tags_2.11_deploy.jar:/databricks/jars/third_party--azure--com.fasterxml.jackson.core__jackson-core__2.7.2_shaded.jar:/databricks/jars/third_party--azure--com.microsoft.azure__azure-keyvault-core__0.8.0_shaded.jar:/databricks/jars/third_party--azure--com.microsoft.azure__azure-storage__5.2.0_shaded.jar:/databricks/jars/third_party--azure--org.apache.commons__commons-lang3__3.3.1_shaded.jar:/databricks/jars/third_party--datalake--datalake-spark_2.3_2.11_deploy.jar:/databricks/jars/third_party--hadoop-azure--shaded-hadoop-azure-external-spark_2.3_2.11_deploy.jar:/databricks/jars/third_party--jackson--guava_only_shaded.jar:/databricks/jars/third_party--jackson--jackson-module-scala-shaded_2.11_deploy.jar:/databricks/jars/third_party--jackson--jsr305_only_shaded.jar:/databricks/jars/third_party--jackson--paranamer_only_shaded.jar:/databricks/jars/third_party--jetty8-shaded-client--databricks-patched-jetty-jars_shaded.jar:/databricks/jars/third_party--jetty8-shaded-client--jetty-http_shaded.jar:/databricks/jars/third_party--jetty8-shaded-client--jetty-io_shaded.jar:/databricks/jars/third_party--jetty8-shaded-client--jetty-jmx_shaded.jar:/databricks/jars/third_party--jetty8-shaded-client--jetty-util_shaded.jar:/databricks/jars/utils--process_utils_deploy.jar:/databricks/jars/workflow--workflow-spark_2.3_2.11_deploy.jar:/databricks/spark/conf/:/databricks/spark/assembly/target/scala-2.11/jars/*:/databricks/spark/dbconf/log4j/master-worker/" "-Xmx21587M" "-Dspark.ui.port=40251" "-Dspark.hadoop.hive.server2.thrift.http.port=10000" "-Dspark.driver.port=43122" "-Dspark.shuffle.service.port=4048" "-XX:ReservedCodeCacheSize=256m" "-XX:+UseCodeCacheFlushing" "-Ddatabricks.serviceName=spark-executor-1" "-javaagent:/databricks/DatabricksAgent.jar" "-XX:+PrintFlagsFinal" "-XX:+PrintGCDateStamps" "-verbose:gc" "-XX:+PrintGCDetails" "-Xss4m" "-Djavax.xml.datatype.DatatypeFactory=com.sun.org.apache.xerces.internal.jaxp.datatype.DatatypeFactoryImpl" "-Djavax.xml.parsers.DocumentBuilderFactory=com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl" "-Djavax.xml.parsers.SAXParserFactory=com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl" "-Djavax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema=com.sun.org.apache.xerces.internal.jaxp.validation.XMLSchemaFactory" "-Dorg.xml.sax.driver=com.sun.org.apache.xerces.internal.parsers.SAXParser" "-Dorg.w3c.dom.DOMImplementationSourceList=com.sun.org.apache.xerces.internal.dom.DOMXSImplementationSourceImpl" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@ip-10-140-249-190.us-west-2.compute.internal:43122" "--executor-id" "1" "--hostname" "10.140.234.90" "--cores" "8" "--app-id" "app-20180527202446-0000" "--worker-url" "spark://Worker@10.140.234.90:38655"
+========================================
+
+18/05/27 20:28:02 INFO CoarseGrainedExecutorBackend: Started daemon with process name: 1783@0524-083453-papas592_10_140_234_90
+18/05/27 20:28:03 INFO SignalUtils: Registered signal handler for TERM
+18/05/27 20:28:03 INFO SignalUtils: Registered signal handler for HUP
+18/05/27 20:28:03 INFO SignalUtils: Registered signal handler for INT
+18/05/27 20:28:03 INFO SecurityManager: Changing view acls to: root
+18/05/27 20:28:03 INFO SecurityManager: Changing modify acls to: root
+18/05/27 20:28:03 INFO SecurityManager: Changing view acls groups to: 
+18/05/27 20:28:03 INFO SecurityManager: Changing modify acls groups to: 
+18/05/27 20:28:03 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+18/05/27 20:28:04 INFO TransportClientFactory: Successfully created connection to ip-10-140-249-190.us-west-2.compute.internal/10.140.249.190:43122 after 91 ms (0 ms spent in bootstraps)
+18/05/27 20:28:04 WARN SparkConf: The configuration key 'spark.scheduler.listenerbus.eventqueue.size' has been deprecated as of Spark 2.3 and may be removed in the future. Please use the new key 'spark.scheduler.listenerbus.eventqueue.capacity' instead.
+18/05/27 20:28:04 WARN SparkConf: The configuration key 'spark.akka.frameSize' has been deprecated as of Spark 1.6 and may be removed in the future. Please use the new key 'spark.rpc.message.maxSize' instead.
+18/05/27 20:28:04 INFO SecurityManager: Changing view acls to: root
+18/05/27 20:28:04 INFO SecurityManager: Changing modify acls to: root
+18/05/27 20:28:04 INFO SecurityManager: Changing view acls groups to: 
+18/05/27 20:28:04 INFO SecurityManager: Changing modify acls groups to: 
+18/05/27 20:28:04 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+18/05/27 20:28:04 INFO TransportClientFactory: Successfully created connection to ip-10-140-249-190.us-west-2.compute.internal/10.140.249.190:43122 after 1 ms (0 ms spent in bootstraps)
+18/05/27 20:28:04 INFO DiskBlockManager: Created local directory at /local_disk0/spark-0fa31057-43a6-475e-b46a-dfcbfba9c565/executor-e5aed710-9319-44e7-b826-ea4267e4217e/blockmgr-fa737462-a0be-47c0-bef2-4f65bd09146a
+18/05/27 20:28:04 INFO MemoryStore: MemoryStore started with capacity 11.1 GB
+18/05/27 20:28:04 INFO CoarseGrainedExecutorBackend: Connecting to driver: spark://CoarseGrainedScheduler@ip-10-140-249-190.us-west-2.compute.internal:43122
+18/05/27 20:28:04 INFO WorkerWatcher: Connecting to worker spark://Worker@10.140.234.90:38655
+18/05/27 20:28:04 INFO TransportClientFactory: Successfully created connection to /10.140.234.90:38655 after 1 ms (0 ms spent in bootstraps)
+18/05/27 20:28:04 INFO WorkerWatcher: Successfully connected to spark://Worker@10.140.234.90:38655
+18/05/27 20:28:04 INFO CoarseGrainedExecutorBackend: Successfully registered with driver
+18/05/27 20:28:04 INFO Executor: Starting executor ID 1 on host 10.140.234.90
+18/05/27 20:28:04 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 37677.
+18/05/27 20:28:04 INFO NettyBlockTransferService: Server created on 10.140.234.90:37677
+18/05/27 20:28:04 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+18/05/27 20:28:04 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(1, 10.140.234.90, 37677, None)
+18/05/27 20:28:04 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(1, 10.140.234.90, 37677, None)
+18/05/27 20:28:04 INFO BlockManager: external shuffle service port = 4048
+18/05/27 20:28:04 INFO BlockManager: Registering executor with local external shuffle service.
+18/05/27 20:28:04 INFO TransportClientFactory: Successfully created connection to /10.140.234.90:4048 after 1 ms (0 ms spent in bootstraps)
+18/05/27 20:28:04 INFO BlockManager: Initialized BlockManager: BlockManagerId(1, 10.140.234.90, 37677, None)
+18/05/27 20:28:04 INFO Executor: Using REPL class URI: spark://ip-10-140-249-190.us-west-2.compute.internal:43122/classes
+18/05/27 20:28:04 INFO CoarseGrainedExecutorBackend: Got assigned task 126
+18/05/27 20:28:04 INFO CoarseGrainedExecutorBackend: Got assigned task 127
+18/05/27 20:28:04 INFO CoarseGrainedExecutorBackend: Got assigned task 128
+18/05/27 20:28:04 INFO CoarseGrainedExecutorBackend: Got assigned task 129
+18/05/27 20:28:04 INFO CoarseGrainedExecutorBackend: Got assigned task 130
+18/05/27 20:28:04 INFO CoarseGrainedExecutorBackend: Got assigned task 131
+18/05/27 20:28:04 INFO Executor: Running task 128.0 in stage 0.0 (TID 128)
+18/05/27 20:28:04 INFO Executor: Running task 126.0 in stage 0.0 (TID 126)
+18/05/27 20:28:04 INFO Executor: Running task 127.0 in stage 0.0 (TID 127)
+18/05/27 20:28:04 INFO Executor: Running task 129.0 in stage 0.0 (TID 129)
+18/05/27 20:28:04 INFO Executor: Running task 130.0 in stage 0.0 (TID 130)
+18/05/27 20:28:04 INFO Executor: Running task 131.0 in stage 0.0 (TID 131)
+18/05/27 20:28:04 INFO CoarseGrainedExecutorBackend: Got assigned task 132
+18/05/27 20:28:04 INFO Executor: Running task 132.0 in stage 0.0 (TID 132)
+18/05/27 20:28:04 INFO CoarseGrainedExecutorBackend: Got assigned task 133
+18/05/27 20:28:04 INFO Executor: Running task 133.0 in stage 0.0 (TID 133)
+18/05/27 20:28:04 INFO TorrentBroadcast: Started reading broadcast variable 1
+18/05/27 20:28:04 INFO TransportClientFactory: Successfully created connection to /10.140.243.202:40896 after 1 ms (0 ms spent in bootstraps)
+18/05/27 20:28:04 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 4.8 KB, free 11.1 GB)
+18/05/27 20:28:04 INFO TorrentBroadcast: Reading broadcast variable 1 took 188 ms
+18/05/27 20:28:04 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 9.9 KB, free 11.1 GB)
+18/05/27 20:28:05 INFO TransportClientFactory: Successfully created connection to ip-10-140-249-190.us-west-2.compute.internal/10.140.249.190:43122 after 1 ms (0 ms spent in bootstraps)
+18/05/27 20:28:05 INFO CodeGenerator: Code generated in 368.637843 ms
+18/05/27 20:28:05 INFO CodeGenerator: Code generated in 29.210687 ms
+18/05/27 20:28:05 INFO TorrentBroadcast: Started reading broadcast variable 0
+18/05/27 20:28:05 INFO TransportClientFactory: Successfully created connection to /10.140.236.170:34426 after 1 ms (0 ms spent in bootstraps)
+18/05/27 20:28:05 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 43.0 KB, free 11.1 GB)
+18/05/27 20:28:05 INFO TorrentBroadcast: Reading broadcast variable 0 took 35 ms
+18/05/27 20:28:05 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 515.6 KB, free 11.1 GB)
+18/05/27 20:28:06 INFO StaticConf$: DB_HOME: /databricks
+18/05/27 20:28:07 INFO DatabricksFileSystemV2Factory: Creating S3A file system for s3a://pstuedi
+18/05/27 20:28:07 INFO DatabricksFileSystemV2Factory: Creating S3A file system for s3a://pstuedi
+18/05/27 20:28:07 INFO DatabricksFileSystemV2Factory: Creating S3A file system for s3a://pstuedi
+18/05/27 20:28:07 INFO DatabricksFileSystemV2Factory: Creating S3A file system for s3a://pstuedi
+18/05/27 20:28:07 INFO DatabricksFileSystemV2Factory: Creating S3A file system for s3a://pstuedi
+18/05/27 20:28:07 INFO DatabricksFileSystemV2Factory: Creating S3A file system for s3a://pstuedi
+18/05/27 20:28:07 INFO DatabricksFileSystemV2Factory: Creating S3A file system for s3a://pstuedi
+18/05/27 20:28:07 INFO DatabricksFileSystemV2Factory: Creating S3A file system for s3a://pstuedi
+18/05/27 20:28:08 INFO DBFS: Initialized DBFS with DBFSV2 as the delegate.
+18/05/27 20:28:08 INFO DBFS: Initialized DBFS with DBFSV2 as the delegate.
+18/05/27 20:28:08 INFO DBFS: Initialized DBFS with DBFSV2 as the delegate.
+18/05/27 20:28:08 INFO DBFS: Initialized DBFS with DBFSV2 as the delegate.
+18/05/27 20:28:08 INFO DBFS: Initialized DBFS with DBFSV2 as the delegate.
+18/05/27 20:28:08 INFO DBFS: Initialized DBFS with DBFSV2 as the delegate.
+18/05/27 20:28:08 INFO DBFS: Initialized DBFS with DBFSV2 as the delegate.
+18/05/27 20:28:08 INFO DBFS: Initialized DBFS with DBFSV2 as the delegate.
+18/05/27 20:28:10 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00050-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-573-c000.avro, range: 134217728-190108756, partition values: [empty row].
+18/05/27 20:28:10 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00098-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-621-c000.avro, range: 134217728-190108239, partition values: [empty row].
+18/05/27 20:28:10 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00018-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-541-c000.avro, range: 134217728-190108428, partition values: [empty row].
+18/05/27 20:28:10 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00074-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-597-c000.avro, range: 134217728-190108662, partition values: [empty row].
+18/05/27 20:28:10 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00038-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-561-c000.avro, range: 134217728-190109025, partition values: [empty row].
+18/05/27 20:28:10 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00001-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-524-c000.avro, range: 134217728-190109159, partition values: [empty row].
+18/05/27 20:28:10 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00008-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-531-c000.avro, range: 134217728-190109207, partition values: [empty row].
+18/05/27 20:28:10 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00033-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-556-c000.avro, range: 134217728-190108628, partition values: [empty row].
+18/05/27 20:28:10 INFO CodeGenerator: Code generated in 40.890778 ms
+18/05/27 20:28:15 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00051-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-574-c000.avro, range: 134217728-190108986, partition values: [empty row].
+18/05/27 20:28:15 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00093-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-616-c000.avro, range: 134217728-190108509, partition values: [empty row].
+18/05/27 20:28:15 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00000-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-523-c000.avro, range: 134217728-190108186, partition values: [empty row].
+18/05/27 20:28:15 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00025-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-548-c000.avro, range: 134217728-190108659, partition values: [empty row].
+18/05/27 20:28:15 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00090-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-613-c000.avro, range: 134217728-190109067, partition values: [empty row].
+18/05/27 20:28:15 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00048-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-571-c000.avro, range: 134217728-190108286, partition values: [empty row].
+18/05/27 20:28:15 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00070-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-593-c000.avro, range: 134217728-190108674, partition values: [empty row].
+18/05/27 20:28:15 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00020-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-543-c000.avro, range: 134217728-190109201, partition values: [empty row].
+18/05/27 20:28:16 WARN ThrottledLogger$: Failed to load user identity when calling dbfs, missing userId,orgId,user.
+java.lang.Exception: Get stack trace for missing UserIdentity
+	at com.databricks.backend.daemon.data.client.DbfsClient$$anonfun$doSend$2.apply(DbfsClient.scala:128)
+	at com.databricks.logging.UsageLogging$$anonfun$withAttributionContext$1.apply(UsageLogging.scala:188)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:58)
+	at com.databricks.logging.UsageLogging$class.withAttributionContext(UsageLogging.scala:183)
+	at com.databricks.backend.daemon.data.client.DbfsClient.withAttributionContext(DbfsClient.scala:19)
+	at com.databricks.logging.UsageLogging$class.withAttributionTags(UsageLogging.scala:221)
+	at com.databricks.backend.daemon.data.client.DbfsClient.withAttributionTags(DbfsClient.scala:19)
+	at com.databricks.backend.daemon.data.client.DbfsClient.doSend(DbfsClient.scala:123)
+	at com.databricks.backend.daemon.data.client.DbfsClient.send0(DbfsClient.scala:84)
+	at com.databricks.backend.daemon.data.client.DbfsClient.sendIdempotent(DbfsClient.scala:55)
+	at com.databricks.backend.daemon.data.client.DatabricksMountsStore.com$databricks$backend$daemon$data$client$DatabricksMountsStore$$refreshMounts(DatabricksMountsStore.scala:72)
+	at com.databricks.backend.daemon.data.client.DatabricksMountsStore$$anonfun$1.apply(DatabricksMountsStore.scala:65)
+	at com.databricks.backend.daemon.data.client.DatabricksMountsStore$$anonfun$1.apply(DatabricksMountsStore.scala:65)
+	at com.databricks.logging.UsageLogging$$anonfun$recordOperation$1.apply(UsageLogging.scala:313)
+	at com.databricks.logging.UsageLogging$$anonfun$withAttributionContext$1.apply(UsageLogging.scala:188)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:58)
+	at com.databricks.logging.UsageLogging$class.withAttributionContext(UsageLogging.scala:183)
+	at com.databricks.threading.SingletonJob$SingletonJobImpl.withAttributionContext(SingletonJob.scala:305)
+	at com.databricks.logging.UsageLogging$class.withAttributionTags(UsageLogging.scala:221)
+	at com.databricks.threading.SingletonJob$SingletonJobImpl.withAttributionTags(SingletonJob.scala:305)
+	at com.databricks.logging.UsageLogging$class.recordOperation(UsageLogging.scala:298)
+	at com.databricks.threading.SingletonJob$SingletonJobImpl.recordOperation(SingletonJob.scala:305)
+	at com.databricks.threading.SingletonJob$SingletonJobImpl$SingletonRun$$anonfun$2$$anonfun$apply$1.apply(SingletonJob.scala:354)
+	at com.databricks.logging.UsageLogging$$anonfun$withAttributionContext$1.apply(UsageLogging.scala:188)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:58)
+	at com.databricks.logging.UsageLogging$class.withAttributionContext(UsageLogging.scala:183)
+	at com.databricks.threading.SingletonJob$SingletonJobImpl.withAttributionContext(SingletonJob.scala:305)
+	at com.databricks.threading.SingletonJob$SingletonJobImpl$SingletonRun$$anonfun$2.apply(SingletonJob.scala:353)
+	at scala.util.Try$.apply(Try.scala:192)
+	at com.databricks.threading.SingletonJob$SingletonJobImpl$SingletonRun.run(SingletonJob.scala:352)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+18/05/27 20:28:18 INFO Executor: Finished task 128.0 in stage 0.0 (TID 128). 57110 bytes result sent to driver
+18/05/27 20:28:19 INFO Executor: Finished task 133.0 in stage 0.0 (TID 133). 57110 bytes result sent to driver
+18/05/27 20:28:19 INFO Executor: Finished task 127.0 in stage 0.0 (TID 127). 57110 bytes result sent to driver
+18/05/27 20:28:19 INFO Executor: Finished task 130.0 in stage 0.0 (TID 130). 57110 bytes result sent to driver
+18/05/27 20:28:19 INFO Executor: Finished task 131.0 in stage 0.0 (TID 131). 57110 bytes result sent to driver
+18/05/27 20:28:19 INFO Executor: Finished task 132.0 in stage 0.0 (TID 132). 57110 bytes result sent to driver
+18/05/27 20:28:19 INFO Executor: Finished task 126.0 in stage 0.0 (TID 126). 57110 bytes result sent to driver
+18/05/27 20:28:19 INFO Executor: Finished task 129.0 in stage 0.0 (TID 129). 57067 bytes result sent to driver
+18/05/27 20:28:21 INFO CoarseGrainedExecutorBackend: Got assigned task 152
+18/05/27 20:28:21 INFO CoarseGrainedExecutorBackend: Got assigned task 157
+18/05/27 20:28:21 INFO Executor: Running task 2.0 in stage 1.0 (TID 152)
+18/05/27 20:28:21 INFO CoarseGrainedExecutorBackend: Got assigned task 162
+18/05/27 20:28:21 INFO Executor: Running task 12.0 in stage 1.0 (TID 162)
+18/05/27 20:28:21 INFO CoarseGrainedExecutorBackend: Got assigned task 167
+18/05/27 20:28:21 INFO Executor: Running task 17.0 in stage 1.0 (TID 167)
+18/05/27 20:28:21 INFO CoarseGrainedExecutorBackend: Got assigned task 172
+18/05/27 20:28:21 INFO Executor: Running task 22.0 in stage 1.0 (TID 172)
+18/05/27 20:28:21 INFO CoarseGrainedExecutorBackend: Got assigned task 177
+18/05/27 20:28:21 INFO Executor: Running task 27.0 in stage 1.0 (TID 177)
+18/05/27 20:28:21 INFO CoarseGrainedExecutorBackend: Got assigned task 182
+18/05/27 20:28:21 INFO Executor: Running task 32.0 in stage 1.0 (TID 182)
+18/05/27 20:28:21 INFO Executor: Running task 7.0 in stage 1.0 (TID 157)
+18/05/27 20:28:21 INFO CoarseGrainedExecutorBackend: Got assigned task 187
+18/05/27 20:28:21 INFO Executor: Running task 37.0 in stage 1.0 (TID 187)
+18/05/27 20:28:21 INFO TorrentBroadcast: Started reading broadcast variable 2
+18/05/27 20:28:21 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 12.7 KB, free 11.1 GB)
+18/05/27 20:28:21 INFO TorrentBroadcast: Reading broadcast variable 2 took 9 ms
+18/05/27 20:28:21 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 38.6 KB, free 11.1 GB)
+18/05/27 20:28:21 INFO CodeGenerator: Code generated in 19.404159 ms
+18/05/27 20:28:21 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00022-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-545-c000.avro, range: 0-134217728, partition values: [empty row].
+18/05/27 20:28:22 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00007-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-530-c000.avro, range: 0-134217728, partition values: [empty row].
+18/05/27 20:28:22 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00002-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-525-c000.avro, range: 0-134217728, partition values: [empty row].
+18/05/27 20:28:22 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00037-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-560-c000.avro, range: 0-134217728, partition values: [empty row].
+18/05/27 20:28:22 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00012-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-535-c000.avro, range: 0-134217728, partition values: [empty row].
+18/05/27 20:28:22 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00017-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-540-c000.avro, range: 0-134217728, partition values: [empty row].
+18/05/27 20:28:22 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00032-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-555-c000.avro, range: 0-134217728, partition values: [empty row].
+18/05/27 20:28:22 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00027-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-550-c000.avro, range: 0-134217728, partition values: [empty row].
+18/05/27 20:28:39 INFO Executor: Finished task 12.0 in stage 1.0 (TID 162). 2136 bytes result sent to driver
+18/05/27 20:28:39 INFO CoarseGrainedExecutorBackend: Got assigned task 201
+18/05/27 20:28:39 INFO Executor: Running task 51.0 in stage 1.0 (TID 201)
+18/05/27 20:28:39 INFO Executor: Finished task 27.0 in stage 1.0 (TID 177). 2093 bytes result sent to driver
+18/05/27 20:28:39 INFO CoarseGrainedExecutorBackend: Got assigned task 203
+18/05/27 20:28:39 INFO Executor: Running task 53.0 in stage 1.0 (TID 203)
+18/05/27 20:28:39 INFO Executor: Finished task 17.0 in stage 1.0 (TID 167). 2093 bytes result sent to driver
+18/05/27 20:28:39 INFO CoarseGrainedExecutorBackend: Got assigned task 205
+18/05/27 20:28:39 INFO Executor: Running task 55.0 in stage 1.0 (TID 205)
+18/05/27 20:28:39 INFO Executor: Finished task 7.0 in stage 1.0 (TID 157). 2093 bytes result sent to driver
+18/05/27 20:28:39 INFO CoarseGrainedExecutorBackend: Got assigned task 206
+18/05/27 20:28:39 INFO Executor: Running task 56.0 in stage 1.0 (TID 206)
+18/05/27 20:28:39 INFO Executor: Finished task 22.0 in stage 1.0 (TID 172). 2093 bytes result sent to driver
+18/05/27 20:28:39 INFO CoarseGrainedExecutorBackend: Got assigned task 207
+18/05/27 20:28:39 INFO Executor: Running task 57.0 in stage 1.0 (TID 207)
+18/05/27 20:28:39 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00053-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-576-c000.avro, range: 0-134217728, partition values: [empty row].
+18/05/27 20:28:39 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00056-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-579-c000.avro, range: 0-134217728, partition values: [empty row].
+18/05/27 20:28:39 INFO Executor: Finished task 32.0 in stage 1.0 (TID 182). 2136 bytes result sent to driver
+18/05/27 20:28:39 INFO CoarseGrainedExecutorBackend: Got assigned task 213
+18/05/27 20:28:39 INFO Executor: Running task 63.0 in stage 1.0 (TID 213)
+18/05/27 20:28:39 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00057-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-580-c000.avro, range: 0-134217728, partition values: [empty row].
+18/05/27 20:28:39 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00055-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-578-c000.avro, range: 0-134217728, partition values: [empty row].
+18/05/27 20:28:39 INFO Executor: Finished task 2.0 in stage 1.0 (TID 152). 2093 bytes result sent to driver
+18/05/27 20:28:39 INFO CoarseGrainedExecutorBackend: Got assigned task 215
+18/05/27 20:28:39 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00051-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-574-c000.avro, range: 0-134217728, partition values: [empty row].
+18/05/27 20:28:39 INFO Executor: Running task 65.0 in stage 1.0 (TID 215)
+18/05/27 20:28:40 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00065-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-588-c000.avro, range: 0-134217728, partition values: [empty row].
+18/05/27 20:28:40 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00063-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-586-c000.avro, range: 0-134217728, partition values: [empty row].
+18/05/27 20:28:40 INFO Executor: Finished task 37.0 in stage 1.0 (TID 187). 2093 bytes result sent to driver
+18/05/27 20:28:40 INFO CoarseGrainedExecutorBackend: Got assigned task 221
+18/05/27 20:28:40 INFO Executor: Running task 71.0 in stage 1.0 (TID 221)
+18/05/27 20:28:41 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00071-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-594-c000.avro, range: 0-134217728, partition values: [empty row].
+18/05/27 20:28:56 INFO Executor: Finished task 53.0 in stage 1.0 (TID 203). 2093 bytes result sent to driver
+18/05/27 20:28:56 INFO CoarseGrainedExecutorBackend: Got assigned task 238
+18/05/27 20:28:56 INFO Executor: Running task 88.0 in stage 1.0 (TID 238)
+18/05/27 20:28:56 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00088-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-611-c000.avro, range: 0-134217728, partition values: [empty row].
+18/05/27 20:28:56 INFO Executor: Finished task 57.0 in stage 1.0 (TID 207). 2093 bytes result sent to driver
+18/05/27 20:28:56 INFO CoarseGrainedExecutorBackend: Got assigned task 241
+18/05/27 20:28:56 INFO Executor: Running task 91.0 in stage 1.0 (TID 241)
+18/05/27 20:28:57 INFO Executor: Finished task 51.0 in stage 1.0 (TID 201). 2093 bytes result sent to driver
+18/05/27 20:28:57 INFO CoarseGrainedExecutorBackend: Got assigned task 243
+18/05/27 20:28:57 INFO Executor: Running task 93.0 in stage 1.0 (TID 243)
+18/05/27 20:28:57 INFO Executor: Finished task 56.0 in stage 1.0 (TID 206). 2093 bytes result sent to driver
+18/05/27 20:28:57 INFO CoarseGrainedExecutorBackend: Got assigned task 244
+18/05/27 20:28:57 INFO Executor: Running task 94.0 in stage 1.0 (TID 244)
+18/05/27 20:28:57 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00091-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-614-c000.avro, range: 0-134217728, partition values: [empty row].
+18/05/27 20:28:57 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00093-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-616-c000.avro, range: 0-134217728, partition values: [empty row].
+18/05/27 20:28:57 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00094-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-617-c000.avro, range: 0-134217728, partition values: [empty row].
+18/05/27 20:28:57 INFO Executor: Finished task 63.0 in stage 1.0 (TID 213). 2136 bytes result sent to driver
+18/05/27 20:28:57 INFO CoarseGrainedExecutorBackend: Got assigned task 247
+18/05/27 20:28:57 INFO Executor: Running task 97.0 in stage 1.0 (TID 247)
+18/05/27 20:28:57 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00097-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-620-c000.avro, range: 0-134217728, partition values: [empty row].
+18/05/27 20:28:57 INFO Executor: Finished task 55.0 in stage 1.0 (TID 205). 2093 bytes result sent to driver
+18/05/27 20:28:57 INFO CoarseGrainedExecutorBackend: Got assigned task 250
+18/05/27 20:28:57 INFO Executor: Running task 100.0 in stage 1.0 (TID 250)
+18/05/27 20:28:57 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00023-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-546-c000.avro, range: 134217728-190116501, partition values: [empty row].
+18/05/27 20:28:58 INFO Executor: Finished task 65.0 in stage 1.0 (TID 215). 2093 bytes result sent to driver
+18/05/27 20:28:58 INFO CoarseGrainedExecutorBackend: Got assigned task 256
+18/05/27 20:28:58 INFO Executor: Running task 106.0 in stage 1.0 (TID 256)
+18/05/27 20:28:58 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00040-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-563-c000.avro, range: 134217728-190111351, partition values: [empty row].
+18/05/27 20:28:59 INFO Executor: Finished task 71.0 in stage 1.0 (TID 221). 2093 bytes result sent to driver
+18/05/27 20:28:59 INFO CoarseGrainedExecutorBackend: Got assigned task 260
+18/05/27 20:28:59 INFO Executor: Running task 110.0 in stage 1.0 (TID 260)
+18/05/27 20:28:59 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00056-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-579-c000.avro, range: 134217728-190110690, partition values: [empty row].
+18/05/27 20:29:04 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00012-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-535-c000.avro, range: 134217728-190113744, partition values: [empty row].
+18/05/27 20:29:05 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00032-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-555-c000.avro, range: 134217728-190111329, partition values: [empty row].
+18/05/27 20:29:06 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00002-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-525-c000.avro, range: 134217728-190110632, partition values: [empty row].
+18/05/27 20:29:11 INFO Executor: Finished task 100.0 in stage 1.0 (TID 250). 2093 bytes result sent to driver
+18/05/27 20:29:11 INFO CoarseGrainedExecutorBackend: Got assigned task 279
+18/05/27 20:29:11 INFO Executor: Running task 129.0 in stage 1.0 (TID 279)
+18/05/27 20:29:11 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00050-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-573-c000.avro, range: 134217728-190108756, partition values: [empty row].
+18/05/27 20:29:12 INFO Executor: Finished task 106.0 in stage 1.0 (TID 256). 2093 bytes result sent to driver
+18/05/27 20:29:12 INFO CoarseGrainedExecutorBackend: Got assigned task 283
+18/05/27 20:29:12 INFO Executor: Running task 133.0 in stage 1.0 (TID 283)
+18/05/27 20:29:12 INFO Executor: Finished task 88.0 in stage 1.0 (TID 238). 2093 bytes result sent to driver
+18/05/27 20:29:12 INFO CoarseGrainedExecutorBackend: Got assigned task 286
+18/05/27 20:29:12 INFO Executor: Running task 136.0 in stage 1.0 (TID 286)
+18/05/27 20:29:12 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00098-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-621-c000.avro, range: 134217728-190108239, partition values: [empty row].
+18/05/27 20:29:12 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00082-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-605-c000.avro, range: 134217728-190107756, partition values: [empty row].
+18/05/27 20:29:12 INFO Executor: Finished task 110.0 in stage 1.0 (TID 260). 2136 bytes result sent to driver
+18/05/27 20:29:12 INFO CoarseGrainedExecutorBackend: Got assigned task 287
+18/05/27 20:29:12 INFO Executor: Running task 137.0 in stage 1.0 (TID 287)
+18/05/27 20:29:12 INFO Executor: Finished task 91.0 in stage 1.0 (TID 241). 2093 bytes result sent to driver
+18/05/27 20:29:12 INFO CoarseGrainedExecutorBackend: Got assigned task 288
+18/05/27 20:29:12 INFO Executor: Running task 138.0 in stage 1.0 (TID 288)
+18/05/27 20:29:13 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00034-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-557-c000.avro, range: 134217728-190107687, partition values: [empty row].
+18/05/27 20:29:13 INFO Executor: Finished task 93.0 in stage 1.0 (TID 243). 2093 bytes result sent to driver
+18/05/27 20:29:13 INFO CoarseGrainedExecutorBackend: Got assigned task 293
+18/05/27 20:29:13 INFO Executor: Running task 143.0 in stage 1.0 (TID 293)
+18/05/27 20:29:13 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00080-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-603-c000.avro, range: 134217728-190107659, partition values: [empty row].
+18/05/27 20:29:13 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00084-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-607-c000.avro, range: 134217728-190106817, partition values: [empty row].
+18/05/27 20:29:14 INFO Executor: Finished task 94.0 in stage 1.0 (TID 244). 2093 bytes result sent to driver
+18/05/27 20:29:14 INFO CoarseGrainedExecutorBackend: Got assigned task 297
+18/05/27 20:29:14 INFO Executor: Running task 147.0 in stage 1.0 (TID 297)
+18/05/27 20:29:14 INFO Executor: Finished task 97.0 in stage 1.0 (TID 247). 2093 bytes result sent to driver
+18/05/27 20:29:14 INFO CoarseGrainedExecutorBackend: Got assigned task 299
+18/05/27 20:29:14 INFO Executor: Running task 149.0 in stage 1.0 (TID 299)
+18/05/27 20:29:14 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00071-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-594-c000.avro, range: 134217728-190104150, partition values: [empty row].
+18/05/27 20:29:14 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00007-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-530-c000.avro, range: 134217728-190105283, partition values: [empty row].
+18/05/27 20:29:18 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00070-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-593-c000.avro, range: 134217728-190108674, partition values: [empty row].
+18/05/27 20:29:19 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00000-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-523-c000.avro, range: 134217728-190108186, partition values: [empty row].
+18/05/27 20:29:20 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00028-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-551-c000.avro, range: 134217728-190106716, partition values: [empty row].
+18/05/27 20:29:20 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00064-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-587-c000.avro, range: 134217728-190107635, partition values: [empty row].
+18/05/27 20:29:20 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00043-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-566-c000.avro, range: 134217728-190107751, partition values: [empty row].
+18/05/27 20:29:20 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00027-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-550-c000.avro, range: 134217728-190107683, partition values: [empty row].
+18/05/27 20:29:21 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00059-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-582-c000.avro, range: 134217728-190105108, partition values: [empty row].
+18/05/27 20:29:21 INFO FileScanRDD: Reading File path: dbfs:/tmp/input-100g/part-00062-tid-1619450849631970524-f2b69cfa-a051-4e92-8505-38360bc202d6-585-c000.avro, range: 134217728-190103615, partition values: [empty row].
+18/05/27 20:29:26 INFO Executor: Finished task 129.0 in stage 1.0 (TID 279). 2093 bytes result sent to driver
+18/05/27 20:29:27 INFO Executor: Finished task 143.0 in stage 1.0 (TID 293). 2093 bytes result sent to driver
+18/05/27 20:29:27 INFO Executor: Finished task 137.0 in stage 1.0 (TID 287). 2093 bytes result sent to driver
+18/05/27 20:29:27 INFO Executor: Finished task 138.0 in stage 1.0 (TID 288). 2093 bytes result sent to driver
+18/05/27 20:29:27 INFO Executor: Finished task 133.0 in stage 1.0 (TID 283). 2093 bytes result sent to driver
+18/05/27 20:29:28 INFO Executor: Finished task 136.0 in stage 1.0 (TID 286). 2093 bytes result sent to driver
+18/05/27 20:29:28 INFO Executor: Finished task 147.0 in stage 1.0 (TID 297). 2093 bytes result sent to driver
+18/05/27 20:29:28 INFO Executor: Finished task 149.0 in stage 1.0 (TID 299). 2093 bytes result sent to driver
+18/05/27 20:29:28 INFO CoarseGrainedExecutorBackend: Got assigned task 302
+18/05/27 20:29:28 INFO CoarseGrainedExecutorBackend: Got assigned task 307
+18/05/27 20:29:28 INFO Executor: Running task 2.0 in stage 2.0 (TID 302)
+18/05/27 20:29:28 INFO Executor: Running task 7.0 in stage 2.0 (TID 307)
+18/05/27 20:29:28 INFO CoarseGrainedExecutorBackend: Got assigned task 312
+18/05/27 20:29:28 INFO CoarseGrainedExecutorBackend: Got assigned task 317
+18/05/27 20:29:28 INFO Executor: Running task 12.0 in stage 2.0 (TID 312)
+18/05/27 20:29:28 INFO CoarseGrainedExecutorBackend: Got assigned task 322
+18/05/27 20:29:28 INFO Executor: Running task 22.0 in stage 2.0 (TID 322)
+18/05/27 20:29:28 INFO CoarseGrainedExecutorBackend: Got assigned task 327
+18/05/27 20:29:28 INFO CoarseGrainedExecutorBackend: Got assigned task 332
+18/05/27 20:29:28 INFO Executor: Running task 27.0 in stage 2.0 (TID 327)
+18/05/27 20:29:28 INFO Executor: Running task 17.0 in stage 2.0 (TID 317)
+18/05/27 20:29:28 INFO Executor: Running task 32.0 in stage 2.0 (TID 332)
+18/05/27 20:29:28 INFO CoarseGrainedExecutorBackend: Got assigned task 337
+18/05/27 20:29:28 INFO Executor: Running task 37.0 in stage 2.0 (TID 337)
+18/05/27 20:29:28 INFO MapOutputTrackerWorker: Updating epoch to 1 and clearing cache
+18/05/27 20:29:28 INFO TorrentBroadcast: Started reading broadcast variable 3
+18/05/27 20:29:28 INFO TransportClientFactory: Successfully created connection to ip-10-140-249-190.us-west-2.compute.internal/10.140.249.190:40245 after 1 ms (0 ms spent in bootstraps)
+18/05/27 20:29:28 INFO MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 94.5 KB, free 11.1 GB)
+18/05/27 20:29:28 INFO TorrentBroadcast: Reading broadcast variable 3 took 18 ms
+18/05/27 20:29:28 INFO MemoryStore: Block broadcast_3 stored as values in memory (estimated size 284.7 KB, free 11.1 GB)
+18/05/27 20:29:28 INFO deprecation: mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+18/05/27 20:29:28 INFO MapOutputTrackerWorker: Don't have map outputs for shuffle 0, fetching them
+18/05/27 20:29:28 INFO MapOutputTrackerWorker: Don't have map outputs for shuffle 0, fetching them
+18/05/27 20:29:28 INFO MapOutputTrackerWorker: Don't have map outputs for shuffle 0, fetching them
+18/05/27 20:29:28 INFO MapOutputTrackerWorker: Don't have map outputs for shuffle 0, fetching them
+18/05/27 20:29:28 INFO MapOutputTrackerWorker: Doing the fetch; tracker endpoint = NettyRpcEndpointRef(spark://MapOutputTracker@ip-10-140-249-190.us-west-2.compute.internal:43122)
+18/05/27 20:29:28 INFO MapOutputTrackerWorker: Don't have map outputs for shuffle 0, fetching them
+18/05/27 20:29:28 INFO MapOutputTrackerWorker: Don't have map outputs for shuffle 0, fetching them
+18/05/27 20:29:28 INFO MapOutputTrackerWorker: Don't have map outputs for shuffle 0, fetching them
+18/05/27 20:29:28 INFO MapOutputTrackerWorker: Don't have map outputs for shuffle 0, fetching them
+18/05/27 20:29:28 INFO MapOutputTrackerWorker: Got the output locations
+18/05/27 20:29:28 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:29:28 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:29:28 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:29:28 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:29:28 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:29:28 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:29:28 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:29:28 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:29:28 INFO TransportClientFactory: Successfully created connection to /10.140.250.10:4048 after 5 ms (0 ms spent in bootstraps)
+18/05/27 20:29:28 INFO TransportClientFactory: Successfully created connection to /10.140.236.170:4048 after 5 ms (0 ms spent in bootstraps)
+18/05/27 20:29:28 INFO TransportClientFactory: Successfully created connection to /10.140.239.255:4048 after 4 ms (0 ms spent in bootstraps)
+18/05/27 20:29:28 INFO TransportClientFactory: Successfully created connection to /10.140.243.202:4048 after 5 ms (0 ms spent in bootstraps)
+18/05/27 20:29:28 INFO ShuffleBlockFetcherIterator: Started 5 remote fetches in 50 ms
+18/05/27 20:29:28 INFO ShuffleBlockFetcherIterator: Started 5 remote fetches in 52 ms
+18/05/27 20:29:28 INFO ShuffleBlockFetcherIterator: Started 5 remote fetches in 49 ms
+18/05/27 20:29:28 INFO ShuffleBlockFetcherIterator: Started 5 remote fetches in 51 ms
+18/05/27 20:29:28 INFO ShuffleBlockFetcherIterator: Started 4 remote fetches in 53 ms
+18/05/27 20:29:28 INFO ShuffleBlockFetcherIterator: Started 5 remote fetches in 60 ms
+18/05/27 20:29:28 INFO ShuffleBlockFetcherIterator: Started 5 remote fetches in 65 ms
+18/05/27 20:29:28 INFO ShuffleBlockFetcherIterator: Started 4 remote fetches in 68 ms
+18/05/27 20:29:28 INFO CodeGenerator: Code generated in 80.884327 ms
+18/05/27 20:29:28 INFO CodeGenerator: Code generated in 29.177573 ms
+18/05/27 20:29:48 INFO Executor: Finished task 27.0 in stage 2.0 (TID 327). 4137 bytes result sent to driver
+18/05/27 20:29:48 INFO CoarseGrainedExecutorBackend: Got assigned task 340
+18/05/27 20:29:48 INFO Executor: Running task 40.0 in stage 2.0 (TID 340)
+18/05/27 20:29:48 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:29:48 INFO ShuffleBlockFetcherIterator: Started 6 remote fetches in 8 ms
+18/05/27 20:29:49 INFO Executor: Finished task 12.0 in stage 2.0 (TID 312). 4094 bytes result sent to driver
+18/05/27 20:29:49 INFO CoarseGrainedExecutorBackend: Got assigned task 341
+18/05/27 20:29:49 INFO Executor: Running task 41.0 in stage 2.0 (TID 341)
+18/05/27 20:29:49 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:29:49 INFO ShuffleBlockFetcherIterator: Started 5 remote fetches in 1 ms
+18/05/27 20:29:50 INFO Executor: Finished task 37.0 in stage 2.0 (TID 337). 4094 bytes result sent to driver
+18/05/27 20:29:50 INFO CoarseGrainedExecutorBackend: Got assigned task 344
+18/05/27 20:29:50 INFO Executor: Running task 44.0 in stage 2.0 (TID 344)
+18/05/27 20:29:50 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:29:50 INFO ShuffleBlockFetcherIterator: Started 6 remote fetches in 17 ms
+18/05/27 20:29:50 INFO Executor: Finished task 2.0 in stage 2.0 (TID 302). 4094 bytes result sent to driver
+18/05/27 20:29:50 INFO CoarseGrainedExecutorBackend: Got assigned task 345
+18/05/27 20:29:50 INFO Executor: Running task 45.0 in stage 2.0 (TID 345)
+18/05/27 20:29:50 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:29:50 INFO ShuffleBlockFetcherIterator: Started 5 remote fetches in 3 ms
+18/05/27 20:29:52 INFO Executor: Finished task 7.0 in stage 2.0 (TID 307). 4094 bytes result sent to driver
+18/05/27 20:29:52 INFO CoarseGrainedExecutorBackend: Got assigned task 349
+18/05/27 20:29:52 INFO Executor: Running task 49.0 in stage 2.0 (TID 349)
+18/05/27 20:29:52 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:29:52 INFO ShuffleBlockFetcherIterator: Started 5 remote fetches in 5 ms
+18/05/27 20:29:52 INFO Executor: Finished task 22.0 in stage 2.0 (TID 322). 4137 bytes result sent to driver
+18/05/27 20:29:52 INFO CoarseGrainedExecutorBackend: Got assigned task 350
+18/05/27 20:29:52 INFO Executor: Running task 50.0 in stage 2.0 (TID 350)
+18/05/27 20:29:52 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:29:52 INFO ShuffleBlockFetcherIterator: Started 5 remote fetches in 8 ms
+18/05/27 20:29:52 INFO Executor: Finished task 17.0 in stage 2.0 (TID 317). 4094 bytes result sent to driver
+18/05/27 20:29:52 INFO CoarseGrainedExecutorBackend: Got assigned task 351
+18/05/27 20:29:52 INFO Executor: Running task 51.0 in stage 2.0 (TID 351)
+18/05/27 20:29:52 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:29:52 INFO ShuffleBlockFetcherIterator: Started 4 remote fetches in 2 ms
+18/05/27 20:29:53 INFO Executor: Finished task 32.0 in stage 2.0 (TID 332). 4094 bytes result sent to driver
+18/05/27 20:29:53 INFO CoarseGrainedExecutorBackend: Got assigned task 354
+18/05/27 20:29:53 INFO Executor: Running task 54.0 in stage 2.0 (TID 354)
+18/05/27 20:29:53 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:29:53 INFO ShuffleBlockFetcherIterator: Started 5 remote fetches in 11 ms
+18/05/27 20:30:06 INFO Executor: Finished task 40.0 in stage 2.0 (TID 340). 4094 bytes result sent to driver
+18/05/27 20:30:06 INFO CoarseGrainedExecutorBackend: Got assigned task 381
+18/05/27 20:30:06 INFO Executor: Running task 81.0 in stage 2.0 (TID 381)
+18/05/27 20:30:06 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:30:06 INFO ShuffleBlockFetcherIterator: Started 5 remote fetches in 1 ms
+18/05/27 20:30:07 INFO Executor: Finished task 44.0 in stage 2.0 (TID 344). 4094 bytes result sent to driver
+18/05/27 20:30:07 INFO CoarseGrainedExecutorBackend: Got assigned task 383
+18/05/27 20:30:07 INFO Executor: Running task 83.0 in stage 2.0 (TID 383)
+18/05/27 20:30:07 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:30:07 INFO ShuffleBlockFetcherIterator: Started 5 remote fetches in 5 ms
+18/05/27 20:30:08 INFO Executor: Finished task 41.0 in stage 2.0 (TID 341). 4094 bytes result sent to driver
+18/05/27 20:30:08 INFO CoarseGrainedExecutorBackend: Got assigned task 385
+18/05/27 20:30:08 INFO Executor: Running task 85.0 in stage 2.0 (TID 385)
+18/05/27 20:30:08 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:30:08 INFO ShuffleBlockFetcherIterator: Started 5 remote fetches in 10 ms
+18/05/27 20:30:08 INFO Executor: Finished task 45.0 in stage 2.0 (TID 345). 4094 bytes result sent to driver
+18/05/27 20:30:08 INFO CoarseGrainedExecutorBackend: Got assigned task 386
+18/05/27 20:30:08 INFO Executor: Running task 86.0 in stage 2.0 (TID 386)
+18/05/27 20:30:08 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:30:08 INFO ShuffleBlockFetcherIterator: Started 5 remote fetches in 27 ms
+18/05/27 20:30:10 INFO Executor: Finished task 49.0 in stage 2.0 (TID 349). 4094 bytes result sent to driver
+18/05/27 20:30:10 INFO CoarseGrainedExecutorBackend: Got assigned task 388
+18/05/27 20:30:10 INFO Executor: Running task 88.0 in stage 2.0 (TID 388)
+18/05/27 20:30:10 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:30:10 INFO ShuffleBlockFetcherIterator: Started 5 remote fetches in 7 ms
+18/05/27 20:30:11 INFO Executor: Finished task 50.0 in stage 2.0 (TID 350). 4094 bytes result sent to driver
+18/05/27 20:30:11 INFO CoarseGrainedExecutorBackend: Got assigned task 390
+18/05/27 20:30:11 INFO Executor: Running task 90.0 in stage 2.0 (TID 390)
+18/05/27 20:30:11 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:30:11 INFO ShuffleBlockFetcherIterator: Started 4 remote fetches in 7 ms
+18/05/27 20:30:12 INFO Executor: Finished task 54.0 in stage 2.0 (TID 354). 4137 bytes result sent to driver
+18/05/27 20:30:12 INFO CoarseGrainedExecutorBackend: Got assigned task 395
+18/05/27 20:30:12 INFO Executor: Running task 95.0 in stage 2.0 (TID 395)
+18/05/27 20:30:12 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:30:12 INFO ShuffleBlockFetcherIterator: Started 6 remote fetches in 3 ms
+18/05/27 20:30:12 INFO Executor: Finished task 51.0 in stage 2.0 (TID 351). 4137 bytes result sent to driver
+18/05/27 20:30:12 INFO CoarseGrainedExecutorBackend: Got assigned task 397
+18/05/27 20:30:12 INFO Executor: Running task 97.0 in stage 2.0 (TID 397)
+18/05/27 20:30:12 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:30:12 INFO ShuffleBlockFetcherIterator: Started 4 remote fetches in 1 ms
+18/05/27 20:30:23 INFO Executor: Finished task 81.0 in stage 2.0 (TID 381). 4094 bytes result sent to driver
+18/05/27 20:30:23 INFO CoarseGrainedExecutorBackend: Got assigned task 420
+18/05/27 20:30:23 INFO Executor: Running task 120.0 in stage 2.0 (TID 420)
+18/05/27 20:30:23 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:30:23 INFO ShuffleBlockFetcherIterator: Started 4 remote fetches in 4 ms
+18/05/27 20:30:24 INFO Executor: Finished task 85.0 in stage 2.0 (TID 385). 4094 bytes result sent to driver
+18/05/27 20:30:24 INFO CoarseGrainedExecutorBackend: Got assigned task 423
+18/05/27 20:30:24 INFO Executor: Running task 123.0 in stage 2.0 (TID 423)
+18/05/27 20:30:24 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:30:24 INFO ShuffleBlockFetcherIterator: Started 5 remote fetches in 10 ms
+18/05/27 20:30:24 INFO Executor: Finished task 83.0 in stage 2.0 (TID 383). 4094 bytes result sent to driver
+18/05/27 20:30:24 INFO CoarseGrainedExecutorBackend: Got assigned task 424
+18/05/27 20:30:24 INFO Executor: Running task 124.0 in stage 2.0 (TID 424)
+18/05/27 20:30:24 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:30:24 INFO ShuffleBlockFetcherIterator: Started 5 remote fetches in 1 ms
+18/05/27 20:30:24 INFO Executor: Finished task 86.0 in stage 2.0 (TID 386). 4137 bytes result sent to driver
+18/05/27 20:30:24 INFO CoarseGrainedExecutorBackend: Got assigned task 425
+18/05/27 20:30:24 INFO Executor: Running task 125.0 in stage 2.0 (TID 425)
+18/05/27 20:30:24 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:30:24 INFO ShuffleBlockFetcherIterator: Started 4 remote fetches in 16 ms
+18/05/27 20:30:27 INFO Executor: Finished task 88.0 in stage 2.0 (TID 388). 4137 bytes result sent to driver
+18/05/27 20:30:27 INFO CoarseGrainedExecutorBackend: Got assigned task 430
+18/05/27 20:30:27 INFO Executor: Running task 130.0 in stage 2.0 (TID 430)
+18/05/27 20:30:27 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:30:27 INFO ShuffleBlockFetcherIterator: Started 4 remote fetches in 16 ms
+18/05/27 20:30:28 INFO Executor: Finished task 90.0 in stage 2.0 (TID 390). 4137 bytes result sent to driver
+18/05/27 20:30:28 INFO CoarseGrainedExecutorBackend: Got assigned task 431
+18/05/27 20:30:28 INFO Executor: Running task 131.0 in stage 2.0 (TID 431)
+18/05/27 20:30:28 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:30:28 INFO ShuffleBlockFetcherIterator: Started 4 remote fetches in 1 ms
+18/05/27 20:30:28 INFO Executor: Finished task 97.0 in stage 2.0 (TID 397). 4094 bytes result sent to driver
+18/05/27 20:30:28 INFO CoarseGrainedExecutorBackend: Got assigned task 434
+18/05/27 20:30:28 INFO Executor: Running task 134.0 in stage 2.0 (TID 434)
+18/05/27 20:30:28 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:30:28 INFO ShuffleBlockFetcherIterator: Started 5 remote fetches in 9 ms
+18/05/27 20:30:29 INFO Executor: Finished task 95.0 in stage 2.0 (TID 395). 4094 bytes result sent to driver
+18/05/27 20:30:29 INFO CoarseGrainedExecutorBackend: Got assigned task 436
+18/05/27 20:30:29 INFO Executor: Running task 136.0 in stage 2.0 (TID 436)
+18/05/27 20:30:29 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:30:29 INFO ShuffleBlockFetcherIterator: Started 5 remote fetches in 12 ms
+18/05/27 20:30:39 INFO Executor: Finished task 120.0 in stage 2.0 (TID 420). 4094 bytes result sent to driver
+18/05/27 20:30:39 INFO CoarseGrainedExecutorBackend: Got assigned task 484
+18/05/27 20:30:39 INFO Executor: Running task 184.0 in stage 2.0 (TID 484)
+18/05/27 20:30:39 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:30:39 INFO ShuffleBlockFetcherIterator: Started 5 remote fetches in 10 ms
+18/05/27 20:30:44 INFO Executor: Finished task 125.0 in stage 2.0 (TID 425). 4137 bytes result sent to driver
+18/05/27 20:30:44 INFO CoarseGrainedExecutorBackend: Got assigned task 490
+18/05/27 20:30:44 INFO Executor: Running task 190.0 in stage 2.0 (TID 490)
+18/05/27 20:30:44 INFO ShuffleBlockFetcherIterator: Getting 150 non-empty blocks out of 150 blocks
+18/05/27 20:30:44 INFO ShuffleBlockFetcherIterator: Started 5 remote fetches in 0 ms
+18/05/27 20:30:51 INFO Executor: Finished task 123.0 in stage 2.0 (TID 423). 4094 bytes result sent to driver
+18/05/27 20:30:51 INFO Executor: Finished task 131.0 in stage 2.0 (TID 431). 4094 bytes result sent to driver
+18/05/27 20:30:52 INFO Executor: Finished task 130.0 in stage 2.0 (TID 430). 4094 bytes result sent to driver
+18/05/27 20:30:52 INFO Executor: Finished task 134.0 in stage 2.0 (TID 434). 4094 bytes result sent to driver
+18/05/27 20:30:52 INFO Executor: Finished task 124.0 in stage 2.0 (TID 424). 4094 bytes result sent to driver
+18/05/27 20:30:53 INFO Executor: Finished task 136.0 in stage 2.0 (TID 436). 4094 bytes result sent to driver
+18/05/27 20:30:53 INFO Executor: Finished task 184.0 in stage 2.0 (TID 484). 4094 bytes result sent to driver
+18/05/27 20:30:58 INFO Executor: Finished task 190.0 in stage 2.0 (TID 490). 4094 bytes result sent to driver
+18/05/27 20:33:17 WARN ThrottledLogger$: Failed to load user identity when calling dbfs, missing userId,orgId,user. [30 occurances]
+java.lang.Exception: Get stack trace for missing UserIdentity
+	at com.databricks.backend.daemon.data.client.DbfsClient$$anonfun$doSend$2.apply(DbfsClient.scala:128)
+	at com.databricks.logging.UsageLogging$$anonfun$withAttributionContext$1.apply(UsageLogging.scala:188)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:58)
+	at com.databricks.logging.UsageLogging$class.withAttributionContext(UsageLogging.scala:183)
+	at com.databricks.backend.daemon.data.client.DbfsClient.withAttributionContext(DbfsClient.scala:19)
+	at com.databricks.logging.UsageLogging$class.withAttributionTags(UsageLogging.scala:221)
+	at com.databricks.backend.daemon.data.client.DbfsClient.withAttributionTags(DbfsClient.scala:19)
+	at com.databricks.backend.daemon.data.client.DbfsClient.doSend(DbfsClient.scala:123)
+	at com.databricks.backend.daemon.data.client.DbfsClient.send0(DbfsClient.scala:84)
+	at com.databricks.backend.daemon.data.client.DbfsClient.sendIdempotent(DbfsClient.scala:55)
+	at com.databricks.backend.daemon.data.client.DatabricksMountsStore.com$databricks$backend$daemon$data$client$DatabricksMountsStore$$refreshMounts(DatabricksMountsStore.scala:72)
+	at com.databricks.backend.daemon.data.client.DatabricksMountsStore$$anonfun$1.apply(DatabricksMountsStore.scala:65)
+	at com.databricks.backend.daemon.data.client.DatabricksMountsStore$$anonfun$1.apply(DatabricksMountsStore.scala:65)
+	at com.databricks.logging.UsageLogging$$anonfun$recordOperation$1.apply(UsageLogging.scala:313)
+	at com.databricks.logging.UsageLogging$$anonfun$withAttributionContext$1.apply(UsageLogging.scala:188)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:58)
+	at com.databricks.logging.UsageLogging$class.withAttributionContext(UsageLogging.scala:183)
+	at com.databricks.threading.SingletonJob$SingletonJobImpl.withAttributionContext(SingletonJob.scala:305)
+	at com.databricks.logging.UsageLogging$class.withAttributionTags(UsageLogging.scala:221)
+	at com.databricks.threading.SingletonJob$SingletonJobImpl.withAttributionTags(SingletonJob.scala:305)
+	at com.databricks.logging.UsageLogging$class.recordOperation(UsageLogging.scala:298)
+	at com.databricks.threading.SingletonJob$SingletonJobImpl.recordOperation(SingletonJob.scala:305)
+	at com.databricks.threading.SingletonJob$SingletonJobImpl$SingletonRun$$anonfun$2$$anonfun$apply$1.apply(SingletonJob.scala:354)
+	at com.databricks.logging.UsageLogging$$anonfun$withAttributionContext$1.apply(UsageLogging.scala:188)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:58)
+	at com.databricks.logging.UsageLogging$class.withAttributionContext(UsageLogging.scala:183)
+	at com.databricks.threading.SingletonJob$SingletonJobImpl.withAttributionContext(SingletonJob.scala:305)
+	at com.databricks.threading.SingletonJob$SingletonJobImpl$SingletonRun$$anonfun$2.apply(SingletonJob.scala:353)
+	at scala.util.Try$.apply(Try.scala:192)
+	at com.databricks.threading.SingletonJob$SingletonJobImpl$SingletonRun.run(SingletonJob.scala:352)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+18/05/27 20:38:17 WARN ThrottledLogger$: Failed to load user identity when calling dbfs, missing userId,orgId,user. [30 occurances]
+java.lang.Exception: Get stack trace for missing UserIdentity
+	at com.databricks.backend.daemon.data.client.DbfsClient$$anonfun$doSend$2.apply(DbfsClient.scala:128)
+	at com.databricks.logging.UsageLogging$$anonfun$withAttributionContext$1.apply(UsageLogging.scala:188)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:58)
+	at com.databricks.logging.UsageLogging$class.withAttributionContext(UsageLogging.scala:183)
+	at com.databricks.backend.daemon.data.client.DbfsClient.withAttributionContext(DbfsClient.scala:19)
+	at com.databricks.logging.UsageLogging$class.withAttributionTags(UsageLogging.scala:221)
+	at com.databricks.backend.daemon.data.client.DbfsClient.withAttributionTags(DbfsClient.scala:19)
+	at com.databricks.backend.daemon.data.client.DbfsClient.doSend(DbfsClient.scala:123)
+	at com.databricks.backend.daemon.data.client.DbfsClient.send0(DbfsClient.scala:84)
+	at com.databricks.backend.daemon.data.client.DbfsClient.sendIdempotent(DbfsClient.scala:55)
+	at com.databricks.backend.daemon.data.client.DatabricksMountsStore.com$databricks$backend$daemon$data$client$DatabricksMountsStore$$refreshMounts(DatabricksMountsStore.scala:72)
+	at com.databricks.backend.daemon.data.client.DatabricksMountsStore$$anonfun$1.apply(DatabricksMountsStore.scala:65)
+	at com.databricks.backend.daemon.data.client.DatabricksMountsStore$$anonfun$1.apply(DatabricksMountsStore.scala:65)
+	at com.databricks.logging.UsageLogging$$anonfun$recordOperation$1.apply(UsageLogging.scala:313)
+	at com.databricks.logging.UsageLogging$$anonfun$withAttributionContext$1.apply(UsageLogging.scala:188)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:58)
+	at com.databricks.logging.UsageLogging$class.withAttributionContext(UsageLogging.scala:183)
+	at com.databricks.threading.SingletonJob$SingletonJobImpl.withAttributionContext(SingletonJob.scala:305)
+	at com.databricks.logging.UsageLogging$class.withAttributionTags(UsageLogging.scala:221)
+	at com.databricks.threading.SingletonJob$SingletonJobImpl.withAttributionTags(SingletonJob.scala:305)
+	at com.databricks.logging.UsageLogging$class.recordOperation(UsageLogging.scala:298)
+	at com.databricks.threading.SingletonJob$SingletonJobImpl.recordOperation(SingletonJob.scala:305)
+	at com.databricks.threading.SingletonJob$SingletonJobImpl$SingletonRun$$anonfun$2$$anonfun$apply$1.apply(SingletonJob.scala:354)
+	at com.databricks.logging.UsageLogging$$anonfun$withAttributionContext$1.apply(UsageLogging.scala:188)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:58)
+	at com.databricks.logging.UsageLogging$class.withAttributionContext(UsageLogging.scala:183)
+	at com.databricks.threading.SingletonJob$SingletonJobImpl.withAttributionContext(SingletonJob.scala:305)
+	at com.databricks.threading.SingletonJob$SingletonJobImpl$SingletonRun$$anonfun$2.apply(SingletonJob.scala:353)
+	at scala.util.Try$.apply(Try.scala:192)
+	at com.databricks.threading.SingletonJob$SingletonJobImpl$SingletonRun.run(SingletonJob.scala:352)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
